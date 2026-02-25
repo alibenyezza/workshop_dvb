@@ -1,0 +1,25 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text eol=lf
+
+# Data files
+*.csv text eol=lf
+
+# JSON files
+*.json text eol=lf
+*.jsonl text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# Binary files
+*.pkl binary
+*.pickle binary
+*.pth binary
+*.h5 binary
+*.hdf5 binary
+
+# Model artifacts (treat as binary)
+submissions/**/*.pkl binary
